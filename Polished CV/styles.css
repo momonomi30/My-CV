@@ -1,0 +1,131 @@
+body {/*background*/
+  background-color: #ecd2f8;
+  border: 5px solid rgb(153, 50, 204);
+  margin: 1em;
+  padding: auto;
+}
+
+img { /*image*/
+display: flex;
+justify-content: left;
+border-radius: 50%;
+border: 06px solid darkorchid;
+}
+
+h1 {
+font-size: 1.5cm;
+display: flex;
+justify-content: center;
+/*border-bottom: 10px solid rgb(177, 232, 24);*/
+color: rgb(139, 0, 139);
+/*background-color: rgba(222, 10, 201, 0.138);*/
+font-family: 'Courier New', Courier, monospace;
+text-shadow: rgb(177, 232, 24) 2px 5px;
+}
+
+h2, h3{ /*topics*/
+  text-align: center;
+  padding: 3%;
+  border-bottom: 10px solid rgb(177, 232, 24);
+  color: darkmagenta;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 2px;
+  font-size: 1cm;
+}
+
+b {/*email*/
+  display: flex;
+  justify-content: end;
+  color: rgb(139, 0, 139);
+  font-size: .9cm;
+  font-family: 'Courier New', Courier, monospace;
+}
+  /*display: flex;
+  justify-content: end;
+  color: rgb(139, 0, 139);
+  margin: 10%;
+  font-size: .9cm;
+  font-family: 'Courier New', Courier, monospace;*/
+
+
+ul, ol{
+  margin: 1ch;
+  font-weight: 600;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkmagenta
+}
+
+td {
+  margin: 2ch;
+  font-weight: 600;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkmagenta;
+}
+
+table thead{
+
+  padding: 10%;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkmagenta;
+}
+
+table{
+ border: 10px dashed plum;
+ font-family: 'FreeMono', monospace;
+color: rgb(0, 18, 99);
+}
+
+label{
+
+   font-family: 'Courier New', Courier, monospace;
+   color: darkmagenta;
+   font-size: 20px;
+   font-weight: bold;
+   margin-left: auto;
+}
+
+#container {
+  width: 100%;
+  max-width: 685px;
+  margin: 0 auto; 
+  padding: 0 15px;
+}
+
+
+/*
+#container .item:hover{
+  border: 10px solid olive;
+  outline: 10px solid lightblue;
+}*/
+
+a {
+  text-decoration: none;
+}
+
+blockquote{ /*paragraph*/
+  font-weight: 600;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkmagenta
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.5s;
+}
+input:hover {
+  background-color: rgb(236, 163, 227);
+}
+
+div {
+  margin: left;
+  padding: auto;
+ font-weight: 600;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkmagenta
+  
+}
